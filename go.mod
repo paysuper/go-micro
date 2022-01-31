@@ -26,7 +26,8 @@ require (
 	github.com/kr/pretty v0.1.0
 	github.com/leodido/go-urn v1.2.0 // indirect
 	github.com/lib/pq v1.2.0
-	github.com/lucas-clemente/quic-go v0.13.1
+	github.com/lucas-clemente/quic-go v0.15.0
+	github.com/marten-seemann/chacha20 v0.2.0 // indirect
 	github.com/mholt/certmagic v0.8.3
 	github.com/micro/cli v0.2.0
 	github.com/micro/mdns v0.3.0
@@ -39,7 +40,7 @@ require (
 	github.com/pkg/errors v0.8.1
 	github.com/stretchr/testify v1.4.0
 	go.uber.org/zap v1.12.0 // indirect
-	golang.org/x/crypto v0.0.0-20191108234033-bd318be0434a
+	golang.org/x/crypto v0.0.0-20200221231518-2aa609cf4a9d
 	golang.org/x/net v0.0.0-20191109021931-daa7c04131f5
 	google.golang.org/grpc v1.25.1
 	gopkg.in/go-playground/validator.v9 v9.30.0
