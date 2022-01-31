@@ -67,7 +67,7 @@ require (
 )
 
 replace (
-	github.com/coreos/etcd => github.com/coreos/etcd v0.0.0-20191011172313-6d8052314b9e
+	github.com/coreos/etcd => github.com/ozonru/etcd v3.3.20-grpc1.27-origmodule+incompatible
 	github.com/coreos/etcd/clientv3 => github.com/coreos/etcd/clientv3 v0.0.0-20191011172313-a2f585d80c97
 	github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes => github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes v0.0.0-20191011172313-e5c2dff3467e
 	github.com/lucas-clemente/quic-go => github.com/lucas-clemente/quic-go v0.15.0
