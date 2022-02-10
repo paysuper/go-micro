@@ -1,11 +1,11 @@
 package tunnel
 
 import (
+	"github.com/micro/go-micro/transport/memory"
 	"time"
 
 	"github.com/google/uuid"
 	"github.com/micro/go-micro/transport"
-	"github.com/micro/go-micro/transport/quic"
 )
 
 var (
@@ -130,6 +130,6 @@ func DefaultOptions() Options {
 		Id:        uuid.New().String(),
 		Address:   DefaultAddress,
 		Token:     DefaultToken,
-		Transport: quic.NewTransport(),
+		Transport: memory.NewTransport(),
 	}
 }

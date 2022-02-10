@@ -37,7 +37,6 @@ require (
 	github.com/kr/pretty v0.1.0
 	github.com/leodido/go-urn v1.2.0 // indirect
 	github.com/lib/pq v1.2.0
-	github.com/lucas-clemente/quic-go v0.15.0
 	github.com/mholt/certmagic v0.8.3
 	github.com/micro/cli v0.2.0
 	github.com/micro/mdns v0.3.0
@@ -70,5 +69,4 @@ replace (
 	github.com/coreos/etcd => github.com/ozonru/etcd v3.3.20-grpc1.27-origmodule+incompatible
 	github.com/coreos/etcd/clientv3 => github.com/coreos/etcd/clientv3 v0.0.0-20191011172313-a2f585d80c97
 	github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes => github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes v0.0.0-20191011172313-e5c2dff3467e
-	github.com/lucas-clemente/quic-go => github.com/lucas-clemente/quic-go v0.15.0
 )
