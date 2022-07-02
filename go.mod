@@ -71,4 +71,5 @@ replace (
 	github.com/coreos/etcd/clientv3 => github.com/coreos/etcd/clientv3 v0.0.0-20191011172313-a2f585d80c97
 	github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes => github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes v0.0.0-20191011172313-e5c2dff3467e
 	github.com/micro/protoc-gen-micro => github.com/paysuper/protoc-gen-micro v0.0.0-20220702050326-b23b57a76644
+	google.golang.org/grpc => google.golang.org/grpc v1.26.0
 )
